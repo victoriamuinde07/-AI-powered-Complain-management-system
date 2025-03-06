@@ -19,35 +19,6 @@ The **AI-Powered Complaint Management System** is an intelligent platform design
 - **SMS Integration**: Africa's Talking API
 - **Deployment**: Hugging Face Spaces
 
-## Installation
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/complaint-management-system.git
-   cd complaint-management-system
-   ```
-
-2. **Create a virtual environment**:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up the database**:
-   - Configure your **PostgreSQL/MySQL** database and update `config.py` with the correct credentials.
-   - Run database migrations:
-     ```bash
-     alembic upgrade head
-     ```
-
-5. **Run the application**:
-   ```bash
-   streamlit run app.py  # For the web interface
-   ```
 
 ## Usage
 1. **Customer registers a complaint** via the Streamlit UI.
